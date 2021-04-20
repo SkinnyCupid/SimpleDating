@@ -19,8 +19,8 @@ Core required features:
 3. User can create/update/delete a profile.
 4. Monthly donation goal / built-in payment system to cover maintenance cost.
 5. Users are required to rate every profile they viewed before proceeding to the next profile.
-  - Currently looking for a 1 - 10 star system
-  - Optional anonymous feedback can be given to each profile
+  - Currently looking at a simple 1 - 10 star system, or alternative a 5 star system for different criterias.
+  - Optional anonymous feedback can be given to each profile when a user views that profile
   - The goal is to create a positive community that enables other users to improve.
   - Ratings resets monthly to allow people improve their profile.
 6. Backend algorithm selects profiles for each user based on location and rating difference.
@@ -38,7 +38,8 @@ Core required features:
   - The purpose of message throttling is to not overwhelm people with 100+ messages
   - Each user can unmatch/ignore another user at any given moment.
 
-Nice to haves:
+Other nice-to-haves:
+
 9. Community experience.
   - Mechanism needed to detect and ban bots/catfishing accounts when there's enough users.
   - Mechanism to detect and flag self-promotional accounts.
