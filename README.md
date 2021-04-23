@@ -7,7 +7,7 @@ About SimpleDating:
 2. Intended users are adults in US/Canada who are looking for long-term/short-term relationships.
 3. Goal is to match people quickly so they are off the platform living happily elsewhere. Maximizing total satisfied users instead of total active users.
 4. Maintenance will rely on periodic donations if there are actual users.
-5. I am inexperienced when it comes to designing data-intensive applications or working with large codebases collaboratively. In fact, I have zero industry experience and no one wants to hire me right now. Any feedback on my design and any code review is GREATLY appreciated.
+5. Any feedback on my design and any code review is GREATLY appreciated.
 6. There will be absolutely no monetization of user data at any point. Everything collected is strictly for matching purposes only and will be kept completely confidential.
 
 
@@ -46,12 +46,10 @@ Other nice-to-haves:
   - Mechanism to identify unsuccessful users and advise them to not waste time on the app.
   - Mechanism to report abusive/uncivil actitivities. Repeat offenders are banned.
 10. Metrics collection for monitoring/analytics.
-
-
-This is also a project where I want to integrate unit testing, agile development workflow, CD/CI into the development process, since nobody was willing to hire me and teach me how to do things the proper way, I'll have to learn everything on my own :(
+11. CD/CI Pipeline
 
 Tech Stack:
-(Any suggestions are EXTREMELY welcomed. Please include any critique of my tech choices, alternatives with rationales to help me better understand what I need to do!)
+(Any suggestions are EXTREMELY welcomed.)
 
 For Frontend, currently looking at:
   - JavaScript ES6+,
@@ -71,9 +69,7 @@ For Backend, currently looking at:
   - S3 buckets for separate image store???
 
 For CD/CI:
-  - no idea exactly what to do at the moment. I am a noob
   - Maybe Gitlab or Jenkins ???
-  - Logging ???
 
 Current Team:
 just me @SkinnyCupid for now, but anyone is welcome to join.
@@ -83,11 +79,9 @@ Project Timelines:
 - Finalize design choices and commit to a tech stack.
 2. May 10th
 - Complete the design diagram, identify all the application access patterns, Reads & Writes.
-- Complete the design of application data model, back APIs, identify all of the managed services that I need
+- Complete the design of application data model, backend APIs, identify all of the managed services that I need
 - Breaking the system into individual manageable and testable pieces
 3. June 1st
 - First Web Browser frontend static version (version 0.1.0?? what's the proper label here)
 - Complete profile creation, Email registration
-4. No point in planning anything further out. Items 1-3 could already be wildly inaccurate.
-
-Might be able to work 7 hours a day on this. I believe the best way to learn system design is to actually design and build an entire system from scratch. Still applying to jobs for a few hours each day, but don't want to waste all my time writing cover letters or refreshing LinkedIn. Already solved half the problems on LeetCode so interview prep is rather pointless.
+4. Re-evaluate project viability and timeline after item 1-3 are finished.
